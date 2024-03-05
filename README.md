@@ -1,7 +1,26 @@
 # MPDM_Alibaba
 
-## Récupération du corpus
+## Récupération du corpus et init HDFS
 
-```shelltu me
+```shell
 ./setup.sh
 ```
+
+## Build des sources
+
+```shell
+./build.sh
+```
+
+## Lancement de l'application
+
+```shell
+./start.sh
+```
+
+## nettoyage des resultats dans HDFS
+
+```shell
+./clean.sh
+```
+
